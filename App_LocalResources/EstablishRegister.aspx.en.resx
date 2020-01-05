@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonResource1.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Password not match</value>
+  </data>
+  <data name="CompareValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="emailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="emailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="estaplishNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="estaplishNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource10.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource11.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource12.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource3.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource4.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource5.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource6.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource7.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource8.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource9.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource10.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="LabelResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource11.Text" xml:space="preserve">
+    <value>irecycle10@gmail.com </value>
+  </data>
+  <data name="LabelResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource12.Text" xml:space="preserve">
+    <value> @irecycle__ </value>
+  </data>
+  <data name="LabelResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource13.Text" xml:space="preserve">
+    <value> @irecycle__ </value>
+  </data>
+  <data name="LabelResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource14.Text" xml:space="preserve">
+    <value> +968 91227827 </value>
+  </data>
+  <data name="LabelResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource15.Text" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="LabelResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource16.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="LabelResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource17.Text" xml:space="preserve">
+    <value>Contact Us :</value>
+  </data>
+  <data name="LabelResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource18.Text" xml:space="preserve">
+    <value>Follow Us :</value>
+  </data>
+  <data name="LabelResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource19.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LabelResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource2.Text" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="LabelResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource20.Text" xml:space="preserve">
+    <value> Muscat </value>
+  </data>
+  <data name="LabelResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource21.Text" xml:space="preserve">
+    <value> العربية</value>
+  </data>
+  <data name="LabelResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource22.Text" xml:space="preserve">
+    <value>Username cannot be left blank</value>
+  </data>
+  <data name="LabelResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource23.Text" xml:space="preserve">
+    <value>Name cannot be left blank</value>
+  </data>
+  <data name="LabelResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource24.Text" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="LabelResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource25.Text" xml:space="preserve">
+    <value>Email cannot be left blank</value>
+  </data>
+  <data name="LabelResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource26.Text" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="LabelResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource27.Text" xml:space="preserve">
+    <value>Phone cannot be left blank</value>
+  </data>
+  <data name="LabelResource27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource28.Text" xml:space="preserve">
+    <value>Address cannot be left blank</value>
+  </data>
+  <data name="LabelResource28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource29.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LabelResource29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource3.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LabelResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource30.Text" xml:space="preserve">
+    <value>|English</value>
+  </data>
+  <data name="LabelResource30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource31.Text" xml:space="preserve">
+    <value>All Rights are save  2019  &amp;#169</value>
+  </data>
+  <data name="LabelResource31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource4.Text" xml:space="preserve">
+    <value>User Registration Data</value>
+  </data>
+  <data name="LabelResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource5.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="LabelResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource6.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="LabelResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource7.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LabelResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource8.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="LabelResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource9.Text" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="LabelResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="passResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="passResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="phoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="phoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Invalid Email id</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Password must contain:minimum 6 characters,at least one uppercase letter, one lowercase letter, number of digits and at least 1 of special characters.</value>
+  </data>
+  <data name="RegularExpressionValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Invalid phone number</value>
+  </data>
+  <data name="RegularExpressionValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Name must contain letters only</value>
+  </data>
+  <data name="RegularExpressionValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Username must contain letters and numbers</value>
+  </data>
+  <data name="RegularExpressionValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>Location must contain letters only</value>
+  </data>
+  <data name="RegularExpressionValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Email cannot be left blank</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Username cannot be left blank</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>address cannot be left blank</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Password cannot be left blank</value>
+  </data>
+  <data name="RequiredFieldValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFirstNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Name cannot be left blank</value>
+  </data>
+  <data name="rfvFirstNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvPwdResource1.ErrorMessage" xml:space="preserve">
+    <value>Phonecannot be left blank</value>
+  </data>
+  <data name="rfvPwdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvPwdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="usernameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="usernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

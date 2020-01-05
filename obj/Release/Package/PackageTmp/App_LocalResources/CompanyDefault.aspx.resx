@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acceptResource1.Text" xml:space="preserve">
+    <value>قبول </value>
+  </data>
+  <data name="acceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addr1Resource1.Text" xml:space="preserve">
+    <value>address</value>
+  </data>
+  <data name="addr1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addrResource1.Text" xml:space="preserve">
+    <value>address</value>
+  </data>
+  <data name="addrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value>الهاتف الشاحنة</value>
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value>الشاحنات</value>
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>الشاحنات</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>نوع المخلفات</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value>الهاتف الشاحنة</value>
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value>اسم المؤسسة</value>
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>اسم المستهلك</value>
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="BoundFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="BoundFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value>الشاحنات</value>
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>الشاحنات</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>نوع المخلفات</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value>اسم المؤسسة</value>
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>اسم المستهلك</value>
+  </data>
+  <data name="bu1Resource1.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="bu1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bu2Resource1.Text" xml:space="preserve">
+    <value>تحديث البيانات </value>
+  </data>
+  <data name="bu2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="emails1Resource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="emails1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="emailsResource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="emailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridViwe1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridViwe1Resource1.EmptyDataText" xml:space="preserve">
+    <value>لا توجد طلبات </value>
+  </data>
+  <data name="gridViwe1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridViwe2Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridViwe2Resource1.EmptyDataText" xml:space="preserve">
+    <value>لا توجد طلبات </value>
+  </data>
+  <data name="gridViwe2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ignorResource1.Text" xml:space="preserve">
+    <value>رفض</value>
+  </data>
+  <data name="ignorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource3.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource4.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource5.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource6.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource7.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource8.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value> تسجيل الخروج </value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource10.Text" xml:space="preserve">
+    <value>    :الهاتف</value>
+  </data>
+  <data name="LabelResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource11.Text" xml:space="preserve">
+    <value>     :نوع المخلفات </value>
+  </data>
+  <data name="LabelResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource12.Text" xml:space="preserve">
+    <value>  قائمة الطلبات الجديدة   </value>
+  </data>
+  <data name="LabelResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource13.Text" xml:space="preserve">
+    <value>  قائمة الطلبات السابقة   </value>
+  </data>
+  <data name="LabelResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource14.Text" xml:space="preserve">
+    <value>:تواصل معنا</value>
+  </data>
+  <data name="LabelResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource15.Text" xml:space="preserve">
+    <value>:تابعونا على</value>
+  </data>
+  <data name="LabelResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource16.Text" xml:space="preserve">
+    <value>irecycle10@gmail.com </value>
+  </data>
+  <data name="LabelResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource17.Text" xml:space="preserve">
+    <value> @irecycle__ </value>
+  </data>
+  <data name="LabelResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource18.Text" xml:space="preserve">
+    <value> @irecycle__ </value>
+  </data>
+  <data name="LabelResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource19.Text" xml:space="preserve">
+    <value> +968 91227827 </value>
+  </data>
+  <data name="LabelResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource21.Text" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="LabelResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource22.Text" xml:space="preserve">
+    <value> العربية</value>
+  </data>
+  <data name="LabelResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource23.Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="LabelResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource24.Text" xml:space="preserve">
+    <value>|English</value>
+  </data>
+  <data name="LabelResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource25.Text" xml:space="preserve">
+    <value> Muscat </value>
+  </data>
+  <data name="LabelResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource26.Text" xml:space="preserve">
+    <value> &amp;#169جميع الحقوق محفوظة  2019  </value>
+  </data>
+  <data name="LabelResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource3.Text" xml:space="preserve">
+    <value> الرئيسية</value>
+  </data>
+  <data name="LabelResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource4.Text" xml:space="preserve">
+    <value>منصة إلكترونية تجعل لمخلفاتك قيمة مادية</value>
+  </data>
+  <data name="LabelResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource5.Text" xml:space="preserve">
+    <value> لنخلق معا بيئة عمانية نظيفة من خلال إدارة المخلفات الغير عضوية بشكل سليم </value>
+  </data>
+  <data name="LabelResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource6.Text" xml:space="preserve">
+    <value>  الصفحة الشخصية لشركات إعادة التدوير </value>
+  </data>
+  <data name="LabelResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource7.Text" xml:space="preserve">
+    <value>   :البريد الإلكتروني</value>
+  </data>
+  <data name="LabelResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource8.Text" xml:space="preserve">
+    <value> :اسم الشركة</value>
+  </data>
+  <data name="LabelResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource9.Text" xml:space="preserve">
+    <value>    :الموقع</value>
+  </data>
+  <data name="LabelResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>تجميع مخلفات </value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>ورق </value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>ورق</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>كرتون </value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>كرتون</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>بلاستك </value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>بلاستك</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>زجاج </value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>زجاج</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>حديد </value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>حديد</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>ألمونيوم </value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>ألمونيوم</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>إطارات </value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>إطارات</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>معادن أخرى </value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>معادن أخرى</value>
+  </data>
+  <data name="name1Resource1.Text" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="name1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nameResource1.Text" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="nameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="okResource1.Text" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="okResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="passResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="passResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="phon1Resource1.Text" xml:space="preserve">
+    <value>phone</value>
+  </data>
+  <data name="phon1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="phonResource1.Text" xml:space="preserve">
+    <value>phone</value>
+  </data>
+  <data name="phonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="requestResource1.Text" xml:space="preserve">
+    <value>طلب شاحنة </value>
+  </data>
+  <data name="requestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="stateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="stateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="types1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="typesResource1.Text" xml:space="preserve">
+    <value>  type</value>
+  </data>
+  <data name="typesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="userResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="userResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+  <data name="dowenResource1" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="BoundFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+</root>
